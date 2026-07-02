@@ -1,0 +1,41 @@
+void setup() {
+  pinMode(8, OUTPUT);
+}
+
+void dot() {   // Chấm .
+  digitalWrite(8, HIGH);
+  delay(250);
+  digitalWrite(8, LOW);
+  delay(250);
+}
+
+void dash() {  // Gạch -
+  digitalWrite(8, HIGH);
+  delay(750);
+  digitalWrite(8, LOW);
+  delay(250);
+}
+
+void loop() {
+  // S (...)
+  dot();
+  dot();
+  dot();
+
+  delay(500);
+
+  // O (---)
+  dash();
+  dash();
+  dash();
+
+  delay(500);
+
+  // S (...)
+  dot();
+  dot();
+  dot();
+
+  // Nghỉ trước khi lặp lại
+  delay(2000);
+}
