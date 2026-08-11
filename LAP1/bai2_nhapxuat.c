@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <stdio.h> // khai bao thu vien
 
-int main() {
+int main() { // Ham chinh cua chuong trinh
     char mssv[9];        // 7 ký tự + 1 ký tự dự phòng + null terminator
-    char hoten[100];
-    int namsinh;
-    float diemtb;
+    char hoten[100]; //mot ky tu don,mot so nguyen nho
+    int namsinh; // 
+    float diemtb;//
     int tuoi;
 
     // Nhập dữ liệu

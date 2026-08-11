@@ -3,7 +3,7 @@
 #include <string.h>
 
 // Struct dùng cho Chức năng 6 (Sắp xếp sinh viên)
-typedef struct {
+typedef struct { 
     char ten[50];
     float diem;
 } SinhVien;
@@ -270,7 +270,7 @@ void chucNang6() {
     }
 
     // Thuat toan Sap xep noi bot (Bubble Sort) giam dan theo diem
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n - 1; i++) { // Vong lap ngoai
         for (int j = i + 1; j < n; j++) {
             if (ds[i].diem < ds[j].diem) {
                 SinhVien temp = ds[i];
