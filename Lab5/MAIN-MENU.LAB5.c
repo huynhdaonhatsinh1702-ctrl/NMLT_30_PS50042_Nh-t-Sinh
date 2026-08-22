@@ -35,6 +35,7 @@ int main(){
         case 5:
             printf("Tam biet!");
             break;
+            
         default:
             printf("Ban phai chon chuc nang tu 1 - 5\n");
             break;
